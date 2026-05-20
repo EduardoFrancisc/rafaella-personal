@@ -1,6 +1,5 @@
-import { useState } from 'react'
-
 import { Header } from './components/landing/Header'
+import { Hero } from './components/landing/Hero'
 
 import './App.css'
 
@@ -10,6 +9,9 @@ function App() {
   return (
     <div className="min-h-screen bg-background">
       <Header />
+      <main>
+        <Hero />
+      </main>
     </div>
   )
 }

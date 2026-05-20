@@ -87,7 +87,7 @@ export function Header() {
               </a>
             ))}
             <a
-              href={WHATSAPP_URL}
+              href={"https://google.com"}
               target="_blank"
               rel="noopener noreferrer"
               className="mt-2 inline-flex justify-center items-center bg-primary text-primary-foreground font-semibold px-4 py-3 rounded-lg"

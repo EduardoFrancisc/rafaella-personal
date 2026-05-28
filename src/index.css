@@ -36,7 +36,7 @@
   --font-display: "Plus Jakarta Sans", "Inter", system-ui, sans-serif;
   --font-sans: "Inter", system-ui, sans-serif;
 
-  --shadow-card: 0 1px 2px oklch(0 0 0 / 0.04), 0 8px 24px -12px oklch(0 0 0 / 0.12);
+  --shadow-card: 0 1px 2px #0000000a, 0 8px 24px -12px #0000001f;
   --shadow-cta: 0 8px 24px -8px oklch(0.65 0.2 45 / 0.5);
 }
 
@@ -44,38 +44,38 @@
   --radius: 0.75rem;
 
   /* Institutional clean base */
-  --background: oklch(0.99 0.003 60);
-  --foreground: oklch(0.18 0.01 50);
+  --background: #fdfbfa;
+  --foreground: #15100e;
 
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.18 0.01 50);
+  --card: #ffffff;
+  --card-foreground: #15100e;
 
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.18 0.01 50);
+  --popover: #ffffff;
+  --popover-foreground: #15100e;
 
   /* Orange — energy & strength */
-  --primary: oklch(0.66 0.2 42);
-  --primary-foreground: oklch(1 0 0);
+  --primary: #f15c00;
+  --primary-foreground: #ffffff;
 
   /* Black — authority */
-  --secondary: oklch(0.18 0.01 50);
-  --secondary-foreground: oklch(1 0 0);
+  --secondary: #15100e;
+  --secondary-foreground: #ffffff;
 
-  --muted: oklch(0.96 0.005 60);
-  --muted-foreground: oklch(0.45 0.01 50);
+  --muted: #f4f1ee;
+  --muted-foreground: #5a5450;
 
-  --accent: oklch(0.96 0.02 50);
-  --accent-foreground: oklch(0.18 0.01 50);
+  --accent: #feeee6;
+  --accent-foreground: #15100e;
 
-  --destructive: oklch(0.577 0.245 27.325);
-  --destructive-foreground: oklch(1 0 0);
+  --destructive: #e7000c;
+  --destructive-foreground: #ffffff;
 
-  --border: oklch(0.9 0.005 60);
-  --input: oklch(0.92 0.005 60);
-  --ring: oklch(0.66 0.2 42);
+  --border: #e1dddb;
+  --input: #e7e4e1;
+  --ring: #f15c00;
 
-  --whatsapp: oklch(0.65 0.17 145);
-  --whatsapp-foreground: oklch(1 0 0);
+  --whatsapp: #3ba946;
+  --whatsapp-foreground: #ffffff;
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap");
